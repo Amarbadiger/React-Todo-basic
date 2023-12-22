@@ -1,10 +1,18 @@
-function Addtodo(){
-    return(
-        <div class="row">
-      <div class="col-5"><input type="text" name="" id="" /></div>
-      <div class="col-5"><input type="date" name="" id="" /></div>
-      <div class="col-2"><button type="button" class="btn btn-success">Success</button></div>
+function Addtodo() {
+  return (
+    <div className="row">
+      <div className="col-5">
+        <input type="text" name="" id="" placeholder="Enter Todo Here" />
+      </div>
+      <div className="col-5">
+        <input type="date" name="" id="" />
+      </div>
+      <div className="col-2">
+        <button type="button" className="btn btn-success">
+          Success
+        </button>
+      </div>
     </div>
-    );
+  );
 }
 export default Addtodo;
